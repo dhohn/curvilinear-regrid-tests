@@ -1,0 +1,16 @@
+documentation:
+  description: dummy
+  title: dummy
+  authors:
+    - righi_mattia
+
+datasets:
+  - {dataset: MPI-ESM1-2-LR, project: CMIP6, exp: 1pctCO2, ensemble: r1i1p1f1, grid: gn, timerange: "1850/1870"}
+
+diagnostics:
+  download:
+    description: dummy diagnostic to trigger autodownload
+    variables:
+      fgco2:
+        mip: Omon
+    scripts: null
