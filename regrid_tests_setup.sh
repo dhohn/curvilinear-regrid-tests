@@ -5,6 +5,6 @@ mamba install -y esmvalcore xesmf jupyterlab
 
 wget https://raw.githubusercontent.com/ESMValGroup/ESMValTool/main/environment.yml
 mamba env update -n test_env environment.yml
-pip install https://github.com/ESMValGroup/ESMValTool
+pip install git+https://github.com/ESMValGroup/ESMValTool
 
 jupyter-lab regrid_tests.ipynb
