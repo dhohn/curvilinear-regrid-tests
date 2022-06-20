@@ -6,6 +6,13 @@ documentation:
 
 datasets:
   - {dataset: MPI-ESM1-2-LR, project: CMIP6, exp: 1pctCO2, ensemble: r1i1p1f1, grid: gn, timerange: "1850/1870"}
+  - {dataset: NorESM2-LM,    project: CMIP6, exp: 1pctCO2, ensemble: r1i1p1f1, grid: gn, timerange: "0001/20"}
+  - {dataset: CanESM5,       project: CMIP6, exp: 1pctCO2, ensemble: r1i1p2f1, grid: gn, timerange: "1850/1870"}
+  - {dataset: MIROC-ES2L,    project: CMIP6, exp: 1pctCO2, ensemble: r1i1p1f2, grid: gn, timerange: "1850/1870"}
+  - {dataset: GISS-E2-1-G-CC,project: CMIP6, exp: esm-1pctCO2, ensemble: r1i1p1f1, grid: gn, timerange: "1850/1870"}
+  - {dataset: ACCESS-ESM1-5, project: CMIP6, exp: 1pctCO2, ensemble: r1i1p1f1, grid: gn, start_year: 101, end_year: 120}
+  - {dataset: UKESM1-0-LL,   project: CMIP6, exp: 1pctCO2, ensemble: r1i1p1f2, grid: gn, timerange: "1850/1870"}
+
 
 diagnostics:
   download:
